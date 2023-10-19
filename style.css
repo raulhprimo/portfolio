@@ -1,0 +1,51 @@
+body{
+  background-color: #343434;
+}
+
+.topnav {
+  background-color: #28282B;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #353935	;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #353935	;
+  color: white;
+}
+
+.container{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 80;
+  margin-left: 100;
+  margin-top: 100;
+}
+
+.container p {
+  color: wheat;
+}
+.container h2 {
+  color: white;
+  font-weight: bold;
+  font-family: monospace
+}
+
+.container h1 {
+  color: wheat;
+}
