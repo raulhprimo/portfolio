@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer and now I'm building things with AI. I love building things and helping people. Most active on Linkedin",
   summary:
-    "At the end of 2023, I quit my job on DXC Technology to go fulltime into building and scaling one startup [Wings AI](#) with my mentor. In the past, [I pursued a degree in system informations and MBA in Business Administration](/#education), [I competed in 2 hackathons, winning 2 podiums, 1 gold and one bronze](/#hackathons).",
+    "At the end of 2024, I quit my job at DXC Technology to go full-time into building and scaling a startup, [Wings AI](#work), with my mentor. I pursued a degree in [Information Systems and i'm doing an MBA in Business Administration](/#education), [I competed in two hackathons, winning two podiums: one gold and one bronze](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -62,7 +62,7 @@ export const DATA = {
       badges: [],
       location: "Hybrid",
       title: "AI Engineer",
-      logoUrl: "/wings.svg",
+      logoUrl: "/Wings.svg",
       start: "October 2024",
       end: "Present",
       description:
@@ -84,7 +84,7 @@ export const DATA = {
   education: [
     {
       school: "Next University",
-      href: "https://next.edu.br",
+      href: "https://nextmba.com",
       degree: "Master's of Business Administration (MBA)",
       logoUrl: "https://optim.tildacdn.net/tild3432-3033-4165-a138-366331656162/-/resize/116x/-/format/webp/white_bg-svg-2.png.webp",
       start: "2025",
@@ -101,12 +101,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "SmartFIN",
+      href: "https://smartfin.ai",
+      dates: "Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Smartfin is a solution for business owners and entrepreneurs designed to simplify financial management with just one click.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -115,26 +115,31 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Python",
+        "FastAPI",
+        "GCP",
+        "Docker",
+        "Grafana",
+        "Langfuse",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://smartfin.ai",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "/Smartfin.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "BeloPrato",
+      href: "https://beloprato.com.br",
+      dates: "December 2024 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "BeloPrato is a solution for restaurants that do not have a menu or do not have images for their menu.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -143,30 +148,25 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        "Docker",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://beloprato.com.br",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "/belo-prato.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "DigitalPubli",
+      href: "https://digitalpubli.ai",
+      dates: "December 2024 - April 2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "DigitalPubli is a tool for influencers and social media users to discover viral insights behind videos on Instagram, Facebook, TikTok, and YouTube.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -174,32 +174,25 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
         "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://digitalpubli.air",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "/digita-publi.mov",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "AnalisaAI",
+      href: "https://analisa.ai",
+      dates: "Present",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "AnalisaAI is a personal project I developed for data analysis, designed to simplify data analysis in any type of Excel spreadsheet.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -207,20 +200,20 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Python",
+        "FastAPI",
+        "Docker"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/raulhprimo/AnalisaAI",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/analisai.mp4",
     },
   ],
   hackathons: [
