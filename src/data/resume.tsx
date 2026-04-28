@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer and now I'm building things with AI. I love building things and helping people. Most active on Linkedin",
   summary:
-    "At the end of 2024, I quit my job at DXC Technology to go full-time into building and scaling a startup, [Wings AI](#work), with my mentor. I pursued a degree in [Information Systems and i'm doing an MBA in Business Administration](/#education), [I competed in two hackathons, winning two podiums: one gold and one bronze](/#hackathons).",
+    "At the end of 2024, I quit my job at DXC Technology to go full-time into building and scaling a startup, [Wings AI](#work), with my mentor. I'm currently pursuing a [Master's in Medicine at FMUSP](/#education), [I competed in two hackathons, winning two podiums: one gold and one bronze](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -83,12 +83,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Next University",
-      href: "https://nextmba.com",
-      degree: "Master's of Business Administration (MBA)",
-      logoUrl: "https://optim.tildacdn.net/tild3432-3033-4165-a138-366331656162/-/resize/116x/-/format/webp/white_bg-svg-2.png.webp",
+      school: "FMUSP (Faculdade de Medicina da USP)",
+      href: "https://www.fm.usp.br/",
+      degree: "Master's of Medicine (Mestrado em Medicina)",
+      logoUrl: "/FMUSP.svg",
       start: "2025",
-      end: "2026",
+      end: "2027",
     },
     {
       school: "Anhembi Morumbi University",
@@ -217,6 +217,15 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Harvard HSIL 2026",
+      dates: "April 10-11th, 2026",
+      location: "São Paulo, Brazil - HC Inova HUB",
+      description: "Developed a pipeline IA engineer collaborating with a CRISPR Cas12a, lab-pocket for emergencies",
+      image: "/harvard.png",
+      mlh:"",
+      links: [],
+    },
     {
       title: "OftalmoHack",
       dates: "July 1rd - 13th, 2025",

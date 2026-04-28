@@ -1,5 +1,8 @@
+"use client";
+
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { ModeToggle } from "@/components/mode-toggle";
+import { LanguageToggle } from "@/components/language-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -10,8 +13,11 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { useLanguage } from "@/components/language-provider";
 
 export default function Navbar() {
+  const { t } = useLanguage();
+
   return (
     <div className="pointer-events-none fixed inset-x-0 bottom-0 z-30 mx-auto mb-4 flex origin-bottom h-full max-h-14">
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
@@ -31,7 +37,7 @@ export default function Navbar() {
                 </Link>
               </TooltipTrigger>
               <TooltipContent>
-                <p>{item.label}</p>
+                <p>{item.label === "Home" ? t.navbar_home : item.label === "Blog" ? t.navbar_blog : item.label}</p>
               </TooltipContent>
             </Tooltip>
           </DockIcon>
@@ -60,6 +66,16 @@ export default function Navbar() {
             </DockIcon>
           ))}
         <Separator orientation="vertical" className="h-full py-2" />
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <LanguageToggle />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Language</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>

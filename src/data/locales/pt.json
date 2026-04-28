@@ -1,0 +1,21 @@
+{
+  "name": "Raul Primo",
+  "initials": "RP",
+  "description": "Engenheiro de Software e agora construindo coisas com IA. Adoro criar e ajudar pessoas. Mais ativo no Linkedin",
+  "summary": "No final de 2024, saí do meu emprego na DXC Technology para me dedicar integralmente à criação e escala de uma startup, [Wings AI](#work), com meu mentor. Atualmente estou cursando [Mestrado em Medicina na FMUSP](/#education), [participei de dois hackathons, conquistando dois pódios: um ouro e um bronze](/#hackathons).",
+  "education_title": "Educação",
+  "work_title": "Experiência Profissional",
+  "skills_title": "Habilidades",
+  "projects_title": "Projetos",
+  "projects_subtitle": "Confira meus trabalhos recentes",
+  "projects_description": "Trabalhei em diversos projetos, desde sites simples até aplicações web complexas. Aqui estão alguns dos meus favoritos.",
+  "hackathons_title": "Hackathons",
+  "hackathons_subtitle": "Eu gosto de construir coisas",
+  "hackathons_description": "Durante meu tempo na universidade, participei de vários hackathons e planejo participar de mais. Essas experiências me ensinaram lições valiosas em gestão de equipe, construção de soluções e como lidar com pressão em ambientes dinâmicos.",
+  "contact_title": "Contato",
+  "contact_subtitle": "Entre em Contato",
+  "contact_description": "Quer conversar? Basta me enviar uma dm [com uma pergunta direta no LinkedIn]({linkedin_url}) e eu responderei assim que puder.",
+  "about_title": "Sobre",
+  "navbar_home": "Início",
+  "navbar_blog": "Blog"
+}
