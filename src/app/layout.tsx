@@ -5,20 +5,13 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Fraunces } from "next/font/google";
+import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 
 const fontSans = Bricolage_Grotesque({
   subsets: ["latin"],
   variable: "--font-sans",
   weight: ["400", "700", "800"],
-});
-
-const fontSerif = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-serif",
-  display: "swap",
-  style: "normal",
 });
 
 export const metadata: Metadata = {
@@ -67,8 +60,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
-          fontSans.variable,
-          fontSerif.variable
+          fontSans.variable
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">

@@ -1,21 +1,113 @@
 {
   "name": "Raul Primo",
   "initials": "RP",
-  "description": "Engenheiro de Software e agora construindo coisas com IA. Adoro criar e ajudar pessoas. Mais ativo no Linkedin",
-  "summary": "No final de 2024, saí do meu emprego na DXC Technology para me dedicar integralmente à criação e escala de uma startup, [Wings AI](#work), com meu mentor. Atualmente estou cursando [Mestrado em Medicina na FMUSP](/#education), [participei de dois hackathons, conquistando dois pódios: um ouro e um bronze](/#hackathons).",
-  "education_title": "Educação",
+  "hero_greeting": "Oi, eu sou Raul",
+  "description": "Engenheiro de Software especializado em produtos digitais, automações e aplicações com IA. Atuo conectando engenharia, experiência de usuário e estratégia de produto.",
+  "summary": "Tenho experiência no desenvolvimento de aplicações web, produtos SaaS e soluções baseadas em IA, com atuação em arquitetura frontend, integração com APIs, automação de processos e prototipação rápida. Nos últimos projetos, trabalhei na criação de plataformas para gestão financeira, análise de dados, marketing digital e fluxos voltados à área da saúde, combinando visão de produto com execução técnica. Também desenvolvo pesquisa aplicada em saúde digital durante o [Mestrado em Medicina na FMUSP](/#education), explorando interseções entre software, IA e prática clínica.",
+  "education_title": "Formação",
   "work_title": "Experiência Profissional",
   "skills_title": "Habilidades",
-  "projects_title": "Projetos",
-  "projects_subtitle": "Confira meus trabalhos recentes",
-  "projects_description": "Trabalhei em diversos projetos, desde sites simples até aplicações web complexas. Aqui estão alguns dos meus favoritos.",
-  "hackathons_title": "Hackathons",
-  "hackathons_subtitle": "Eu gosto de construir coisas",
-  "hackathons_description": "Durante meu tempo na universidade, participei de vários hackathons e planejo participar de mais. Essas experiências me ensinaram lições valiosas em gestão de equipe, construção de soluções e como lidar com pressão em ambientes dinâmicos.",
+  "projects_title": "Portfólio",
+  "projects_subtitle": "Produtos e soluções recentes",
+  "projects_description": "Uma seleção de produtos digitais que combinam engenharia, IA, automação e experiência de usuário para resolver problemas reais.",
+  "projects_web_title": "Produtos Web",
+  "projects_app_title": "Aplicações Mobile",
+  "projects_app_eyebrow": "",
+  "projects_web_work_label": "Produto Web",
+  "hackathons_title": "Pesquisa e inovação",
+  "hackathons_subtitle": "Projetos em saúde, IA e prototipação",
+  "hackathons_description": "Iniciativas desenvolvidas em ambientes de inovação, com foco em saúde digital, suporte à decisão, educação médica e protótipos funcionais.",
   "contact_title": "Contato",
-  "contact_subtitle": "Entre em Contato",
-  "contact_description": "Quer conversar? Basta me enviar uma dm [com uma pergunta direta no LinkedIn]({linkedin_url}) e eu responderei assim que puder.",
-  "about_title": "Sobre",
+  "contact_subtitle": "Entre em contato",
+  "contact_description": "Quer conversar? Envie uma mensagem [com uma pergunta direta no LinkedIn]({linkedin_url}) e eu respondo assim que puder.",
+  "about_title": "Perfil",
   "navbar_home": "Início",
-  "navbar_blog": "Blog"
+  "navbar_blog": "Blog",
+  "language_tooltip": "Idioma",
+  "theme_tooltip": "Tema",
+  "toggle_language_label": "Alternar idioma",
+  "present_label": "Atual",
+  "work": [
+    {
+      "location": "Híbrido",
+      "title": "Engenheiro de IA",
+      "start": "Outubro de 2024",
+      "end": "Atual",
+      "description": ""
+    },
+    {
+      "location": "Presencial",
+      "title": "Estagiário",
+      "start": "Agosto de 2023",
+      "end": "Outubro de 2024",
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Mestrado em Medicina",
+      "start": "2025",
+      "end": "2027"
+    },
+    {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "start": "2021",
+      "end": "2025"
+    }
+  ],
+  "projects_items": [
+    {
+      "dates": "Atual",
+      "description": "Chega de estudar por horas e esquecer tudo em 2 dias. Chega de não saber por onde começar. O AprendoAqui cria seu roadmap personalizado, agenda suas revisões e te acompanha com um mentor de IA que conhece seu perfil.",
+      "links": []
+    },
+    {
+      "dates": "Atual",
+      "description": "Landing page para uma deeptech de saúde que posiciona a Wings Group na interseção entre inteligência artificial, prevenção e futuro do cuidado.",
+      "links": []
+    },
+    {
+      "dates": "Atual",
+      "description": "SmartFIN é uma solução para empresários e empreendedores, criada para simplificar a gestão financeira com apenas um clique.",
+      "links": []
+    },
+    {
+      "dates": "Dezembro de 2024 - Atual",
+      "description": "BeloPrato é uma solução para restaurantes que ainda não têm cardápio ou não possuem imagens para os pratos do menu.",
+      "links": []
+    },
+    {
+      "dates": "Dezembro de 2024 - Abril de 2025",
+      "description": "DigitalPubli é uma ferramenta para influenciadores e criadores descobrirem insights virais por trás de vídeos no Instagram, Facebook, TikTok e YouTube.",
+      "links": []
+    },
+    {
+      "dates": "Atual",
+      "description": "AnalisaAI é um projeto pessoal que desenvolvi para análise de dados, criado para simplificar a análise em qualquer tipo de planilha Excel.",
+      "links": [{ "type": "Código" }]
+    }
+  ],
+  "app_works": [
+    {
+      "category": "AI-powered reporting",
+      "description": "Agente de IA de bolso para times comerciais gerenciarem seus leads e aumentarem sua taxa de conversão."
+    }
+  ],
+  "hackathons": [
+    {
+      "dates": "10-11 de abril de 2026",
+      "location": "São Paulo, Brasil - HC Inova HUB",
+      "description": "Desenvolvi uma pipeline de engenharia de IA conectada a fluxos com CRISPR Cas12a e ao Lab Pocket, uma ferramenta para suporte emergencial."
+    },
+    {
+      "dates": "1-13 de julho de 2025",
+      "location": "São Paulo, Brasil - HCFMUSP",
+      "description": "Desenvolvi uma aplicação mobile para residentes e fellows de oftalmologia melhorarem suas rotinas de estudo e o acompanhamento do logbook."
+    },
+    {
+      "dates": "3-13 de julho de 2024",
+      "location": "São Paulo, Brasil - HCFMUSP",
+      "description": "Desenvolvi um agente de IA para ajudar oftalmologistas no suporte a pacientes com doenças crônicas."
+    }
+  ]
 }

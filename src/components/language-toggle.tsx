@@ -2,10 +2,9 @@
 
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/components/language-provider";
-import { Languages } from "lucide-react";
 
 export function LanguageToggle() {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
 
   const toggleLanguage = () => {
     setLanguage(language === "en" ? "pt" : "en");
@@ -20,7 +19,7 @@ export function LanguageToggle() {
       onClick={toggleLanguage}
     >
       {language === "en" ? "EN" : "PT"}
-      <span className="sr-only">Toggle language</span>
+      <span className="sr-only">{t.toggle_language_label}</span>
     </Button>
   );
 }

@@ -40,7 +40,7 @@ const BlurFadeText = ({
           {characters.map((char, i) => (
             <motion.span
               key={i}
-              initial="hidden"
+              initial={false}
               animate="visible"
               exit="hidden"
               variants={combinedVariants}
@@ -64,7 +64,7 @@ const BlurFadeText = ({
     <div className="flex">
       <AnimatePresence>
         <motion.span
-          initial="hidden"
+          initial={false}
           animate="visible"
           exit="hidden"
           variants={combinedVariants}

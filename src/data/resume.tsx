@@ -101,8 +101,52 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AprendoAqui",
+      href: "https://aprendoaqui.com.br",
+      dates: "Present",
+      active: true,
+      description:
+        "Chega de estudar por horas e esquecer tudo em 2 dias. Chega de não saber por onde começar. O AprendoAqui cria seu roadmap personalizado, agenda suas revisões e te acompanha com um mentor de IA que conhece seu perfil.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Mastra",
+        "AbacatePay",
+        "Google Analytics",
+        "Supabase",
+      ],
+      links: [],
+      image: "",
+      video: "/aprendoaqui.mp4",
+    },
+    {
+      title: "Wings Group",
+      href: "https://www.wingsgroup.ai",
+      dates: "Present",
+      active: true,
+      description:
+        "Transformando a saúde com inteligência. A saúde é o mais importante. Não deixe para depois. Pense no seu futuro hoje. Deeptech na área de saúde.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Supabase",
+        "Google Analytics",
+      ],
+      links: [],
+      image: "",
+      video: "/wingsgroup.mp4",
+    },
+    {
       title: "SmartFIN",
-      href: "https://smartfin.ai",
+      href: "",
       dates: "Present",
       active: true,
       description:
@@ -122,20 +166,14 @@ export const DATA = {
         "Grafana",
         "Langfuse",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://smartfin.ai",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video:
         "/Smartfin.mp4",
     },
     {
       title: "BeloPrato",
-      href: "https://beloprato.com.br",
+      href: "",
       dates: "December 2024 - Present",
       active: true,
       description:
@@ -150,19 +188,13 @@ export const DATA = {
         "Shadcn UI",
         "Docker",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://beloprato.com.br",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "/belo-prato.mp4",
     },
     {
       title: "DigitalPubli",
-      href: "https://digitalpubli.ai",
+      href: "",
       dates: "December 2024 - April 2025",
       active: true,
       description:
@@ -176,13 +208,7 @@ export const DATA = {
         "Shadcn UI",
         "Stripe",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://digitalpubli.air",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "/digita-publi.mov",
     },
@@ -216,6 +242,26 @@ export const DATA = {
         "/analisai.mp4",
     },
   ],
+  appWorks: [
+    {
+      title: "RepportAI",
+      category: "AI-powered reporting",
+      description:
+        "Agente de IA de bolso para times comerciais gerenciarem seus leads e aumentarem sua taxa de conversão.",
+      accent: "#3b82f6",
+      logo: "/RepportAI/RE-logo.png",
+      screenshots: [
+        "/RepportAI/RE1.png",
+        "/RepportAI/RE2.png",
+        "/RepportAI/RE3.png",
+        "/RepportAI/RE4.png",
+        "/RepportAI/RE5.png",
+        "/RepportAI/RE6.png",
+        "/RepportAI/RE7.png",
+        "/RepportAI/RE8.png",
+      ],
+    },
+  ],
   hackathons: [
     {
       title: "Harvard HSIL 2026",
@@ -223,6 +269,12 @@ export const DATA = {
       location: "São Paulo, Brazil - HC Inova HUB",
       description: "Developed a pipeline IA engineer collaborating with a CRISPR Cas12a, lab-pocket for emergencies",
       image: "/harvard.png",
+      logoUrl: "/harvard.png",
+      galleryImages: [
+        { src: "/hackathons/harvardhack-1.jpeg", alt: "Harvard HSIL 2026 moment 1" },
+        { src: "/hackathons/harvardhack-2.jpeg", alt: "Harvard HSIL 2026 moment 2" },
+        { src: "/hackathons/harvardhack-3.jpeg", alt: "Harvard HSIL 2026 moment 3" },
+      ],
       mlh:"",
       links: [],
     },
@@ -233,6 +285,14 @@ export const DATA = {
       description:
         "Developed a mobile application for residents and fellow studentes to improve their studies and their logbook",
       image: "/oftalmohack.png",
+      logoUrl: "/oftalmohack.png",
+      galleryImages: [
+        { src: "/hackathons/oftalmohack-2_1.jpeg", alt: "OftalmoHack 2025 moment 1" },
+        { src: "/hackathons/oftalmohack-2_2.jpeg", alt: "OftalmoHack 2025 moment 2" },
+        { src: "/hackathons/oftalmohack-2_3.jpeg", alt: "OftalmoHack 2025 moment 3" },
+        { src: "/hackathons/oftalmohack-2_4.jpeg", alt: "OftalmoHack 2025 moment 4" },
+        { src: "/hackathons/oftalmohack-2_5.jpeg", alt: "OftalmoHack 2025 moment 5" },
+      ],
       mlh: "",
       links: [],
     },
@@ -243,6 +303,12 @@ export const DATA = {
       description:
         "Developed a AI agent to help ophalmologists patients with chronic diseases.",
       image: "/oftalmohack.png",
+      logoUrl: "/oftalmohack.png",
+      galleryImages: [
+        { src: "/hackathons/oftalmohack-1_1.jpeg", alt: "OftalmoHack 2024 moment 1" },
+        { src: "/hackathons/oftalmohack-1_2.jpeg", alt: "OftalmoHack 2024 moment 2" },
+        { src: "/hackathons/oftalmohack-1_3.jpeg", alt: "OftalmoHack 2024 moment 3" },
+      ],
       mlh: "",
       links: [],
     },

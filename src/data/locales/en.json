@@ -1,21 +1,113 @@
 {
   "name": "Raul Primo",
   "initials": "RP",
-  "description": "Software Engineer and now I'm building things with AI. I love building things and helping people. Most active on Linkedin",
-  "summary": "At the end of 2024, I quit my job at DXC Technology to go full-time into building and scaling a startup, [Wings AI](#work), with my mentor. I'm currently pursuing a [Master's in Medicine at FMUSP](/#education), [I competed in two hackathons, winning two podiums: one gold and one bronze](/#hackathons).",
+  "hero_greeting": "Hi, I'm Raul",
+  "description": "Software Engineer specialized in digital products, automations, and AI-powered applications. I work across engineering, user experience, and product strategy.",
+  "summary": "I have experience building web applications, SaaS products, and AI-based solutions, with hands-on work in frontend architecture, API integration, process automation, and rapid prototyping. In recent projects, I have helped create platforms for financial management, data analysis, digital marketing, and healthcare workflows, combining product thinking with technical execution. I also develop applied research in digital health through a [Master's in Medicine at FMUSP](/#education), exploring the intersection of software, AI, and clinical practice.",
   "education_title": "Education",
   "work_title": "Work Experience",
   "skills_title": "Skills",
-  "projects_title": "Projects",
-  "projects_subtitle": "Check out my latest work",
-  "projects_description": "I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.",
-  "hackathons_title": "Hackathons",
-  "hackathons_subtitle": "I like building things",
-  "hackathons_description": "During my time in university, I participated in several hackathons and plan to join even more. Those experiences taught me valuable lessons in team management, solution building, and handling pressure while working in fast-paced environments.",
+  "projects_title": "Portfolio",
+  "projects_subtitle": "Recent products and solutions",
+  "projects_description": "A selection of digital products combining engineering, AI, automation, and user experience to solve real problems.",
+  "projects_web_title": "Web Products",
+  "projects_app_title": "Mobile Applications",
+  "projects_app_eyebrow": "",
+  "projects_web_work_label": "Web Product",
+  "hackathons_title": "Research and innovation",
+  "hackathons_subtitle": "Healthcare, AI, and prototyping projects",
+  "hackathons_description": "Initiatives built in innovation environments, focused on digital health, decision support, medical education, and functional prototypes.",
   "contact_title": "Contact",
   "contact_subtitle": "Get in Touch",
-  "contact_description": "Want to chat? Just shoot me a dm [with a direct question on LinkedIn] ({linkedin_url}) and I'll respond whenever I can.",
-  "about_title": "About",
+  "contact_description": "Want to chat? Send me a DM [with a direct question on LinkedIn]({linkedin_url}) and I will reply as soon as I can.",
+  "about_title": "Profile",
   "navbar_home": "Home",
-  "navbar_blog": "Blog"
+  "navbar_blog": "Blog",
+  "language_tooltip": "Language",
+  "theme_tooltip": "Theme",
+  "toggle_language_label": "Toggle language",
+  "present_label": "Present",
+  "work": [
+    {
+      "location": "Hybrid",
+      "title": "AI Engineer",
+      "start": "October 2024",
+      "end": "Present",
+      "description": ""
+    },
+    {
+      "location": "On-site",
+      "title": "Intern",
+      "start": "August 2023",
+      "end": "October 2024",
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's in Medicine",
+      "start": "2025",
+      "end": "2027"
+    },
+    {
+      "degree": "Bachelor's Degree in Information Systems",
+      "start": "2021",
+      "end": "2025"
+    }
+  ],
+  "projects_items": [
+    {
+      "dates": "Present",
+      "description": "No more studying for hours and forgetting everything two days later. No more not knowing where to start. AprendoAqui creates a personalized roadmap, schedules reviews, and supports students with an AI mentor that understands their profile.",
+      "links": []
+    },
+    {
+      "dates": "Present",
+      "description": "Landing page for a healthcare deeptech positioning Wings Group at the intersection of artificial intelligence, prevention, and the future of care.",
+      "links": []
+    },
+    {
+      "dates": "Present",
+      "description": "SmartFIN is a solution for business owners and entrepreneurs, designed to simplify financial management with just one click.",
+      "links": []
+    },
+    {
+      "dates": "December 2024 - Present",
+      "description": "BeloPrato is a solution for restaurants that do not have a menu or do not have images for their menu.",
+      "links": []
+    },
+    {
+      "dates": "December 2024 - April 2025",
+      "description": "DigitalPubli is a tool for influencers and social media users to discover viral insights behind videos on Instagram, Facebook, TikTok, and YouTube.",
+      "links": []
+    },
+    {
+      "dates": "Present",
+      "description": "AnalisaAI is a personal project I built for data analysis, designed to simplify analysis in any type of Excel spreadsheet.",
+      "links": [{ "type": "Source" }]
+    }
+  ],
+  "app_works": [
+    {
+      "category": "AI-powered reporting",
+      "description": "A pocket AI agent for sales teams to manage their leads and increase their conversion rate."
+    }
+  ],
+  "hackathons": [
+    {
+      "dates": "April 10-11, 2026",
+      "location": "São Paulo, Brazil - HC Inova HUB",
+      "description": "Developed an AI engineering pipeline connected to CRISPR Cas12a workflows and Lab Pocket, a tool for emergency support."
+    },
+    {
+      "dates": "July 1-13, 2025",
+      "location": "São Paulo, Brazil - HCFMUSP",
+      "description": "Developed a mobile application for ophthalmology residents and fellows to improve their study routines and logbook tracking."
+    },
+    {
+      "dates": "July 3-13, 2024",
+      "location": "São Paulo, Brazil - HCFMUSP",
+      "description": "Developed an AI agent to help ophthalmologists support patients with chronic diseases."
+    }
+  ]
 }
