@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Raul Primo",
   initials: "RP",
-  url: "https://primotech.com.br",
+  url: "https://www.raulprimo.site",
   location: "São Paulo, Brazil",
   locationLink: "https://www.google.com/maps/place/São Paulo",
   description:
