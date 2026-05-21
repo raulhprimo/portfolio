@@ -262,6 +262,36 @@ export const DATA = {
       ],
     },
   ],
+  landingWorks: [
+    {
+      title: "Fernanda",
+      category: "Desktop showcase",
+      description: "",
+      href: "",
+      screenshots: ["/landings/site-fernanda.png"],
+    },
+    {
+      title: "Geek",
+      category: "Desktop showcase",
+      description: "",
+      href: "",
+      screenshots: ["/landings/site-geek.png"],
+    },
+    {
+      title: "OnOftalmologia",
+      category: "Desktop showcase",
+      description: "",
+      href: "",
+      screenshots: ["/landings/site-onoftalmologia.png"],
+    },
+    {
+      title: "Priscila",
+      category: "Desktop showcase",
+      description: "",
+      href: "",
+      screenshots: ["/landings/site-priscila.png"],
+    },
+  ],
   hackathons: [
     {
       title: "Harvard HSIL 2026",

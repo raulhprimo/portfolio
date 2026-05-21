@@ -13,10 +13,25 @@
   "projects_web_title": "Produtos Web",
   "projects_app_title": "Aplicações Mobile",
   "projects_app_eyebrow": "",
+  "projects_landing_title": "Landing Pages",
+  "projects_landing_eyebrow": "",
   "projects_web_work_label": "Produto Web",
+  "projects_landing_placeholder": "Adicione aqui o print desktop da landing page.",
   "hackathons_title": "Pesquisa e inovação",
   "hackathons_subtitle": "Projetos em saúde, IA e prototipação",
   "hackathons_description": "Iniciativas desenvolvidas em ambientes de inovação, com foco em saúde digital, suporte à decisão, educação médica e protótipos funcionais.",
+  "testimonials_eyebrow": "Depoimentos",
+  "testimonials_title": "O que as pessoas dizem",
+  "testimonials_description": "Opiniões de pessoas com quem trabalhei em produtos e soluções reais.",
+  "testimonials_cta_title": "Trabalhamos juntos? Deixe o seu depoimento",
+  "testimonials_cta_subtitle": "O seu feedback me ajuda a crescer e ajuda outras pessoas a entender o valor que posso trazer para um projeto.",
+  "testimonials_name_placeholder": "Seu nome",
+  "testimonials_company_placeholder": "Empresa (opcional)",
+  "testimonials_message_placeholder": "Conte como foi trabalhar comigo...",
+  "testimonials_submit_label": "Enviar depoimento",
+  "testimonials_success_title": "Obrigado!",
+  "testimonials_success_message": "Seu depoimento foi recebido. Fico muito grato por ter tirado um tempo para compartilhar a sua experiência.",
+  "testimonials_rating_label": "Avaliação:",
   "contact_title": "Contato",
   "contact_subtitle": "Entre em contato",
   "contact_description": "Quer conversar? Envie uma mensagem [com uma pergunta direta no LinkedIn]({linkedin_url}) e eu respondo assim que puder.",
@@ -91,6 +106,28 @@
     {
       "category": "AI-powered reporting",
       "description": "Agente de IA de bolso para times comerciais gerenciarem seus leads e aumentarem sua taxa de conversão."
+    }
+  ],
+  "landing_works": [
+    {
+      "title": "Fernanda",
+      "category": "Desktop showcase",
+      "description": "Use este espaço para adicionar o print principal de uma landing page que você já construiu."
+    },
+    {
+      "title": "Geek",
+      "category": "Desktop showcase",
+      "description": "Use este espaço para adicionar o print principal de uma landing page que você já construiu."
+    },
+    {
+      "title": "OnOftalmologia",
+      "category": "Desktop showcase",
+      "description": "Use este espaço para adicionar o print principal de uma landing page que você já construiu."
+    },
+    {
+      "title": "Priscila",
+      "category": "Desktop showcase",
+      "description": "Use este espaço para adicionar o print principal de uma landing page que você já construiu."
     }
   ],
   "hackathons": [

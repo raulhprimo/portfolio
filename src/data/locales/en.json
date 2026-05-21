@@ -13,10 +13,25 @@
   "projects_web_title": "Web Products",
   "projects_app_title": "Mobile Applications",
   "projects_app_eyebrow": "",
+  "projects_landing_title": "Landing Pages",
+  "projects_landing_eyebrow": "",
   "projects_web_work_label": "Web Product",
+  "projects_landing_placeholder": "Add the desktop screenshot for this landing page here.",
   "hackathons_title": "Research and innovation",
   "hackathons_subtitle": "Healthcare, AI, and prototyping projects",
   "hackathons_description": "Initiatives built in innovation environments, focused on digital health, decision support, medical education, and functional prototypes.",
+  "testimonials_eyebrow": "Testimonials",
+  "testimonials_title": "What people say",
+  "testimonials_description": "Opinions from people I've worked with on real products and solutions.",
+  "testimonials_cta_title": "Worked together? Leave your testimonial",
+  "testimonials_cta_subtitle": "Your feedback helps me grow and helps others understand the value I can bring to a project.",
+  "testimonials_name_placeholder": "Your name",
+  "testimonials_company_placeholder": "Company (optional)",
+  "testimonials_message_placeholder": "Share your experience working with me...",
+  "testimonials_submit_label": "Send testimonial",
+  "testimonials_success_title": "Thank you!",
+  "testimonials_success_message": "Your testimonial has been received. I really appreciate you taking the time to share your experience.",
+  "testimonials_rating_label": "Rating:",
   "contact_title": "Contact",
   "contact_subtitle": "Get in Touch",
   "contact_description": "Want to chat? Send me a DM [with a direct question on LinkedIn]({linkedin_url}) and I will reply as soon as I can.",
@@ -91,6 +106,28 @@
     {
       "category": "AI-powered reporting",
       "description": "A pocket AI agent for sales teams to manage their leads and increase their conversion rate."
+    }
+  ],
+  "landing_works": [
+    {
+      "title": "Fernanda",
+      "category": "Desktop showcase",
+      "description": "Use this slot to add the main screenshot for a landing page you have already built."
+    },
+    {
+      "title": "Geek",
+      "category": "Desktop showcase",
+      "description": "Use this slot to add the main screenshot for a landing page you have already built."
+    },
+    {
+      "title": "OnOftalmologia",
+      "category": "Desktop showcase",
+      "description": "Use this slot to add the main screenshot for a landing page you have already built."
+    },
+    {
+      "title": "Priscila",
+      "category": "Desktop showcase",
+      "description": "Use this slot to add the main screenshot for a landing page you have already built."
     }
   ],
   "hackathons": [

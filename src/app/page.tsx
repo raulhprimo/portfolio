@@ -2,6 +2,7 @@
 
 import { AboutMoments } from "@/components/about-moments";
 import { FeaturedWorks } from "@/components/featured-works";
+import { TestimonialsSection } from "@/components/testimonials-section";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ResumeCard } from "@/components/resume-card";
@@ -37,6 +38,10 @@ export default function Page() {
   const appWorkItems = DATA.appWorks.map((app, index) => ({
     ...app,
     ...t.app_works[index],
+  }));
+  const landingWorkItems = DATA.landingWorks.map((landing, index) => ({
+    ...landing,
+    ...t.landing_works[index],
   }));
   const hackathonItems = DATA.hackathons.map((hackathon, index) => ({
     ...hackathon,
@@ -134,19 +139,23 @@ export default function Page() {
             <FeaturedWorks
               webWorks={projectItems}
               appWorks={appWorkItems}
+              landingWorks={landingWorkItems}
               labels={{
                 eyebrow: t.projects_title,
                 webTitle: t.projects_web_title,
                 appTitle: t.projects_app_title,
                 appEyebrow: t.projects_app_eyebrow,
+                landingTitle: t.projects_landing_title,
+                landingEyebrow: t.projects_landing_eyebrow,
                 webWorkLabel: t.projects_web_work_label,
+                landingPlaceholder: t.projects_landing_placeholder,
                 description: t.projects_description,
               }}
             />
           </BlurFade>
         </div>
       </section>
-      <section id="hackathons" className="-mt-24 md:-mt-20 lg:-mt-16">
+      <section id="hackathons" className="pt-20">
         <div className="w-full pb-12 pt-0">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <AboutMoments
@@ -157,6 +166,27 @@ export default function Page() {
             />
           </BlurFade>
         </div>
+      </section>
+      <section id="testimonials" className="pt-16 hidden">
+        <BlurFade delay={BLUR_FADE_DELAY * 14}>
+          <TestimonialsSection
+            eyebrow={t.testimonials_eyebrow}
+            title={t.testimonials_title}
+            description={t.testimonials_description}
+            testimonials={[]}
+            cta={{
+              title: t.testimonials_cta_title,
+              subtitle: t.testimonials_cta_subtitle,
+              namePlaceholder: t.testimonials_name_placeholder,
+              companyPlaceholder: t.testimonials_company_placeholder,
+              messagePlaceholder: t.testimonials_message_placeholder,
+              submitLabel: t.testimonials_submit_label,
+              successTitle: t.testimonials_success_title,
+              successMessage: t.testimonials_success_message,
+              ratingLabel: t.testimonials_rating_label,
+            }}
+          />
+        </BlurFade>
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">

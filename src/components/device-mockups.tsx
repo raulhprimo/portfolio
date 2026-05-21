@@ -84,7 +84,7 @@ export function IPhoneMockup({ image, title, index = 0 }: IPhoneMockupProps) {
   // Cuicui usa dimensões fixas 428×868. Escalamos via CSS transform
   // para caber no container, igual ao MacBook.
   return (
-    <div className="w-full" style={{ aspectRatio: "428 / 868" }}>
+    <div className="w-full overflow-hidden" style={{ aspectRatio: "428 / 868" }}>
       <div
         className="origin-top-left"
         style={{

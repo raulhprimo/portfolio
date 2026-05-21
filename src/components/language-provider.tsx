@@ -18,13 +18,17 @@ const translations = { en, pt };
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("pt");
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language") as Language;
     if (savedLanguage && (savedLanguage === "en" || savedLanguage === "pt")) {
       setLanguage(savedLanguage);
+      document.documentElement.lang = savedLanguage;
+      return;
     }
+
+    document.documentElement.lang = "pt";
   }, []);
 
   const handleSetLanguage = (lang: Language) => {

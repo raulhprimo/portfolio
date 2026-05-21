@@ -2,6 +2,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { IPhoneMockup, MacbookMockup } from "@/components/device-mockups";
+import { LandingGallery } from "@/components/landing-gallery";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
@@ -31,15 +32,27 @@ type AppWork = {
   logo?: string;
 };
 
+type LandingWork = {
+  title: string;
+  category: string;
+  description: string;
+  screenshots: readonly string[];
+  href?: string;
+};
+
 type FeaturedWorksProps = {
   webWorks: readonly WebWork[];
   appWorks: readonly AppWork[];
+  landingWorks: readonly LandingWork[];
   labels: {
     eyebrow: string;
     webTitle: string;
     appTitle: string;
     appEyebrow: string;
+    landingTitle: string;
+    landingEyebrow: string;
     webWorkLabel: string;
+    landingPlaceholder: string;
     description: string;
   };
 };
@@ -202,6 +215,7 @@ function AppCarousel({ app }: { app: AppWork }) {
 export function FeaturedWorks({
   webWorks,
   appWorks,
+  landingWorks,
   labels,
 }: FeaturedWorksProps) {
   return (
@@ -337,6 +351,26 @@ export function FeaturedWorks({
               <AppCarousel app={app} />
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="pt-20">
+        <header className="mx-auto flex max-w-2xl flex-col items-center gap-3 text-center">
+          {labels.landingEyebrow && (
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-muted-foreground">
+              {labels.landingEyebrow}
+            </p>
+          )}
+          <h2 className="text-4xl font-black tracking-normal sm:text-6xl">
+            {labels.landingTitle}
+          </h2>
+        </header>
+
+        <div className="mt-5">
+          <LandingGallery
+            items={landingWorks}
+            placeholderLabel={labels.landingPlaceholder}
+          />
         </div>
       </section>
     </div>
