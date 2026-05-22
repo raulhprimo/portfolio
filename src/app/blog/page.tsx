@@ -1,10 +1,23 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
+import { DATA } from "@/data/resume";
+import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Blog",
-  description: "My thoughts on software development, life, and more.",
+  description:
+    "Articles by Raul Primo about software engineering, AI products, automation, and lessons from building digital products.",
+  alternates: {
+    canonical: "/blog",
+  },
+  openGraph: {
+    title: `Blog | ${DATA.name}`,
+    description:
+      "Articles by Raul Primo about software engineering, AI products, automation, and lessons from building digital products.",
+    url: `${DATA.url}/blog`,
+    type: "website",
+  },
 };
 
 const BLUR_FADE_DELAY = 0.04;

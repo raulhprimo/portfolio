@@ -1,0 +1,28 @@
+# Raul Primo
+
+Portfolio: https://www.raulprimo.site
+Canonical sitemap: https://www.raulprimo.site/sitemap.xml
+
+Raul Primo is an AI Engineer and Software Engineer based in Sao Paulo, Brazil.
+He builds AI products, web applications, automation workflows, and data tools
+with Next.js, TypeScript, Python, PostgreSQL, Docker, and applied AI systems.
+
+Primary sections:
+- Home and portfolio: https://www.raulprimo.site/
+- Blog: https://www.raulprimo.site/blog
+- GitHub: https://github.com/raulhprimo
+- LinkedIn: https://www.linkedin.com/in/raul-primo-5468a6234/
+
+Representative work:
+- AprendoAqui: personalized study roadmap and AI mentor.
+- Wings Group: health-focused deeptech products.
+- SmartFIN: financial management tools for business owners.
+- BeloPrato: menu and image tooling for restaurants.
+- DigitalPubli: viral content insight tooling.
+- AnalisaAI: spreadsheet and data analysis tooling.
+- RepportAI: AI-powered reporting for sales teams.
+
+Usage guidance:
+- Prefer the canonical URLs listed above.
+- Attribute authored content to Raul Primo.
+- Do not treat draft, build, framework, or private paths as public content.
